@@ -46,21 +46,13 @@ h1 {
     color: black;
 }
 
-.re-top:hover {
-    color: red;
-}
-
 .container-1 {
-    width: 800px;
-    margin: 0 auto;
-
 
     margin-top: 60px;
 }
 
 .container-2 {
-    width: 800px;
-    margin: 0 auto;
+
     background: #d7f0d7;
     min-height: 100vh;
     display: flex;
@@ -81,22 +73,26 @@ h1 {
 .main-1 {
     height: 300px;
     display: flex;
+
 }
 
 .main-2 {
 
     display: flex;
     flex: 1;
+
 }
 
 .footer-1 {
     height: 150px;
     background: blue;
+    color: white;
 }
 
 .footer-2 {
     height: 150px;
     background: blue;
+    color: white;
 }
 
 .left-1 {
@@ -124,6 +120,7 @@ h1 {
 .center-2 {
     background: #666;
     flex: 1;
+    color: white;
 }
 
 .left-2 li {
@@ -150,6 +147,7 @@ main {
     width: 800px;
     margin: 0 auto;
     background: #666;
+    color: white;
 }
 
 nav {
@@ -169,6 +167,7 @@ footer {
     height: 300px;
     margin-top: auto;
     background: blue;
+    color: white;
 }
 
 .open {
@@ -184,7 +183,7 @@ footer {
 
 input[type="checkbox"] {
     position: absolute;
-    left: -50vw;
+    left: -70vw;
 }
 
 .container-4 {
@@ -247,12 +246,14 @@ input[type="checkbox"] {
 .nav-wrap-6 {
     display: flex;
     min-height: 100vh;
+    background: #d7f0d7;
 }
 
 .main-6 {
     width: 800px;
     margin: 0 auto;
     background: #666;
+    color: white;
 }
 
 .nav-6 {
@@ -271,46 +272,15 @@ input[type="checkbox"] {
     height: 300px;
     margin-top: auto;
     background: blue;
+    color: white;
 }
 
 .footer-ss {
     display: none;
     background: blue;
-}
-
-.container-7 {
-    margin-top: 60px;
-}
-
-.contact-form {
-    width: 800px;
-    padding: 90px 0 60px;
-    background: orange;
-}
-
-
-
-input,
-textarea {
-    font-size: 15px;
-    width: 400px;
-    padding: 8px 14px;
-}
-
-input::placeholder,
-textarea::placeholder {
-    color: red;
-}
-
-.submit-button {
-    width: 400px;
     color: white;
-    background: red;
-    border-radius: 50px;
-    border: none;
-
 }
 
-.submit-button:hover {
-    opacity: 0.8;
+.all-wrap {
+    overflow: hidden;
 }
